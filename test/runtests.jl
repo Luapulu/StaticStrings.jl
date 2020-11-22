@@ -1,6 +1,9 @@
 using StaticStrings
 using Test
+using Random: shuffle, shuffle!
 
 @testset "StaticStrings.jl" begin
-    # Write your tests here.
+    include("static.jl")
+
+    include("padded.jl")
 end
